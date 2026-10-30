@@ -1,5 +1,5 @@
 
-paste0("
+test <- function() {paste0("
 
 
 dir.create("R", showWarnings = FALSE)
@@ -57,5 +57,7 @@ if (length(learner) > 1L) {
 }
 
 
-")
+")}
+
+            
 
